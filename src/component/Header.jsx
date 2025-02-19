@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, LogIn } from 'lucide-react';
 import './Header.scss';
+import ScrollToTop from 'react-scroll-to-top';
 
 const Header = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -23,6 +24,8 @@ const Header = () => {
   };
 
   return (
+    <>
+    <ScrollToTop smooth/>
     <header className="header">
       <div className="header__container">
         {/* Logo */}
@@ -99,6 +102,7 @@ const Header = () => {
         </div>
       </div>
     </header>
+    </>
   );
 };
 
