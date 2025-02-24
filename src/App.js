@@ -4,6 +4,8 @@ import Footer from './component/Footer'
 import Banner from './component/Banner'
 
 import Typewritter from './component/Typewritter'
+import ProductListing from './component/ProductListing'
+import Cart from './component/Cart'
 
 
 
@@ -14,6 +16,9 @@ const App = () => {
    <br></br>
    <Banner/>
    <Typewritter/>
+   <br></br>
+   <ProductListing/>
+   <Cart/>
    <Footer/>
     </div>
   )
