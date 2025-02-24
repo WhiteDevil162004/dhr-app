@@ -11,6 +11,8 @@ const App = () => {
   return (
     <div>
    <Header/>
+   <br></br>
+   <Banner/>
    <Typewritter/>
    <Footer/>
     </div>
